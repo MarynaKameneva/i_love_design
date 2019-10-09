@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+   
+}
+
+.ba-header {
+    
+    background-color: #23232e;
+    color: #fff;
+    text-align: center;
+}
+
+.conteiner {
+    max-width: 900px;
+    width: 100%;
+    padding: 50px 15px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 80px 0 0;
+    
+}
+
+.ba-title {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0;
+}
+
+.ba-title_black {
+    color: rgb(68, 67, 67);
+}
+
+.ba-header p {
+    font-size: 1rem;
+    line-height: 30px;
+    padding-bottom: 110px;
+}
+
+.ba-btn-arrow {
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    
+}
+
+.ba-btn-arrow:before,
+.ba-btn-arrow:after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: 16px;
+    background-color: #fff;
+    transform: rotate(-45deg) translate( 0px, 4px);
+}
+
+.ba-btn-arrow:after {
+    transform: rotate(45deg) translate( 0px, 4px);
+}
+
+.ba-btn-arrow:hover:after {
+    transform: rotate(-45deg) translate(-9px, 5px);
+}
+
+.ba-btn-arrow:hover:before {
+    transform: rotate(45deg) translate(9px, 5px);
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+
+.ba-section p {
+    padding-top: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 25px;
+    color: rgb(68, 67, 67);
+}
+
+h2 {
+    text-align: center;
+    padding-top: 10px;
+} 
+
+.ba-skills {
+    display: flex;
+    flex-direction: row;
+}
+
+.ba-skill__title {
+    text-transform: uppercase;
+    color: rgb(68, 67, 67);  
+}
+
+.ba-skill-desc p {
+    text-align: left;
+}
